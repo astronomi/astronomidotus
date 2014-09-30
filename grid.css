@@ -1,0 +1,63 @@
+.clear{ clear: both; }
+.container{ 
+	width:98%; 
+	margin:0 auto;
+	}
+	
+.first{ margin-left:0px; }
+.last{ margin-right:0px; }
+	
+
+/* ===================================== Fixed Grids ===================================== */
+.full-width{ width:100%; margin:0 auto; }
+
+.grid-2{ width:450px; float:left; margin-left:15px; margin-right:15px;}
+.grid-3{width:300px; float:left; margin-left:10px; margin-right:0px;}
+.grid-4{ width:210px; float:left; margin-left:15px; margin-right:15px;}
+.grid-5{ width:162px; float:left; margin-left:15px; margin-right:15px;}
+.grid-6{ width:130px; float:left; margin-left:15px; margin-right:15px;}
+.logo-container a {margin-left:10px;text-decoration: none;color:#fff;}
+.logo-container p {margin-left:10px;text-decoration: none;color:#fff;}
+.logo-container {width:100%; margin-top:10px;height:180px; background: url(http://2.bp.blogspot.com/-EU136D98bgo/U5TdK2nWC5I/AAAAAAAAGMg/6DOmPKX_arQ/s1600/milkyway.jpg);}
+
+.grid-2-3{ width:640px; float:left; margin-left:0px; margin-right:10px;}
+.grid-3-4{ width:690px; float:left; margin-left:15px; margin-right:15px;}
+
+
+
+
+/* ===================================== Fluid Grids ===================================== */
+.one-sixth,
+.one-fifth,
+.one-fourth,
+.one-third,
+.one-half,
+.two-third,
+.three-fourth{
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.one-half { width:48%; margin-left:2%; margin-right:2%; }
+.one-third { width:32%; }
+.one-fourth { width:23.5%; }
+.one-fifth { width:18.4%; }
+.one-sixth { width:15%; }
+.three-fourth { width:73.0%; }
+.two-third { width:64.667%; }
+
+
+.one-half.first,
+.one-third.first,
+.one-fourth.first,
+.one-fifth.first,
+.one-sixth.first{ margin-left:0px; }
+
+.one-half.last,
+.one-third.last,
+.one-fourth.last,
+.one-fifth.last,
+.one-sixth.last{ margin-right:0px; }
