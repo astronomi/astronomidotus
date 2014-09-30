@@ -1,0 +1,226 @@
+/* Strong/Bold */
+.entry strong, .entry b{ font-weight:bold; }
+
+/* Headers */
+.entry h1, .comment-text h1{ font-size:25px; margin-bottom:10px }
+.entry h2, .comment-text h2{ font-size:23px; margin-bottom:10px }
+.entry h3, .comment-text h3{ font-size:20px; margin-bottom:10px }
+.entry h4, .comment-text h4{ font-size:18px; margin-bottom:10px }
+.entry h5, .comment-text h5{ font-size:16px; margin-bottom:10px }
+.entry h6, .comment-text h6{ font-size:14px; margin-bottom:10px }
+
+/* Paragraph */
+.entry p{ margin-bottom:10px;  }
+.comment-text p{ margin-bottom:10px; display:block }
+
+/* Image Max Widgth */
+.entry img, .entry .wp-caption{ max-width:100%; height:auto; margin-bottom:20px; }
+
+
+
+/* Lists */
+.entry ul, .entry ol{ margin-bottom:20px; margin-left:0px; }
+.entry ul li, .entry ol li{ line-height:1.5em; margin-bottom:0px; }
+
+.entry ul li:last-child, .entry ol li:last-child{ margin-bottom:0px; }
+
+/* Child lists */
+.entry ol ol, .comment-text ol ol{ margin-top:10px; margin-bottom:5px; list-style:upper-alpha inside; }
+
+.entry ol ul, .comment-text ol ul{ margin-left:20px; margin-top:10px; margin-bottom:5px; }
+.entry ol ul ol, .comment-text ol ul ol{ margin-left:20px; margin-top:10px; margin-bottom:5px; }
+
+.entry ul ol, .comment-text ul ol{ margin-left:20px; margin-top:10px; margin-bottom:10px; }
+.entry ul ol ul, .comment-textul ol ul{ margin-left:20px; margin-top:10px; margin-bottom:5px; }
+
+.entry ul ul, .comment-text ul ul{ margin-left:20px; margin-top:10px; margin-bottom:5px; list-style:circle inside }
+.entry ul ul ul, .comment-text ul ul ul{ margin-left:20px; margin-top:10px; margin-bottom:5px; }
+
+
+
+/* Comment Lists */
+.comment-text ul li, .comment-text ol li, .comment-text ol ol li{ border-bottom:none; padding:0px; margin:0px; list-style:square inside; margin-bottom:5px; }
+.comment-text ul li:last-child, .comment-text ol li:last-child{ margin-bottom:0px; }
+
+.comment-text ul{ margin-bottom:10px; }
+.comment-text ol{ padding-left:15px; margin-bottom:10px; }
+
+
+
+
+/* Address */
+.entry address,
+.comment-text address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 20px;
+  font-style:italic
+}
+
+
+/* Blockquotes */
+blockquote p, p blockquote{
+	background:url(../images/quote.png) 20px top no-repeat;
+	padding-left:55px;
+	margin-top:20px;
+	padding-bottom:20px;
+	text-align:justify;
+}
+
+cite{ margin-top:10px; font-size:12px; text-align:left; color:#333333; font-weight:bold; display:block }
+
+
+/* Definition Listing */
+dt {
+	font-weight: bold;
+	margin-bottom:10px;
+}
+dd {
+	background:none no-repeat left top;
+	padding-left: 50px;
+	border-bottom:1px solid #EEEEEE;
+	margin-bottom:10px;
+	padding-bottom:15px;
+	line-height:1.5em;
+}
+
+dd:last-child{
+	border-bottom:none;
+	}
+
+/* Table */
+.entry table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.entry table a{ font-weight:bold; text-decoration:none }
+
+.entry table thead{ background:#333333; color:#FFFFFF; }
+
+.entry table  > thead > tr > th,
+.entry table  > tbody > tr > th,
+.entry table  > tfoot > tr > th,
+.entry table  > thead > tr > td,
+.entry table  > tbody > tr > td,
+.entry table  > tfoot > tr > td {
+    padding: 15px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-bottom: 1px solid #dddddd;
+}
+
+.entry table  > thead > tr > th {
+    vertical-align: bottom;
+}
+
+.entry table  > caption + thead > tr:first-child > th,
+.entry table  > colgroup + thead > tr:first-child > th,
+.entry table  > thead:first-child > tr:first-child > th,
+.entry table  > caption + thead > tr:first-child > td,
+.entry table  > colgroup + thead > tr:first-child > td,
+.entry table  > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+.entry table  > tbody + tbody {
+    border-top: 1px solid #dddddd;
+}
+
+.entry table  .entry table  {
+    background-color: #ffffff;
+}
+
+
+
+
+/* Comments Table */
+.comment-text table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comment-text table a{ font-weight:bold; text-decoration:none }
+
+.comment-text table thead{ background:#333333; color:#FFFFFF; }
+
+.comment-text table  > thead > tr > th,
+.comment-text table  > tbody > tr > th,
+.comment-text table  > tfoot > tr > th,
+.comment-text table  > thead > tr > td,
+.comment-text table  > tbody > tr > td,
+.comment-text table  > tfoot > tr > td {
+    padding: 15px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-bottom: 1px solid #dddddd;
+}
+
+.comment-text table  > thead > tr > th {
+    vertical-align: bottom;
+}
+
+.comment-text table  > caption + thead > tr:first-child > th,
+.comment-text table  > colgroup + thead > tr:first-child > th,
+.comment-text table  > thead:first-child > tr:first-child > th,
+.comment-text table  > caption + thead > tr:first-child > td,
+.comment-text table  > colgroup + thead > tr:first-child > td,
+.comment-text table  > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+.comment-text table  > tbody + tbody {
+    border-top: 1px solid #dddddd;
+}
+
+.comment-text table  .entry table  {
+    background-color: #ffffff;
+}
+
+
+
+
+/* Others */
+em { font-style:; }
+
+pre{
+	white-space:pre-wrap;
+	max-width:100%;
+	margin-bottom:15px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	line-height:1.5em;
+	
+	font-family: consolas, courier, monospace;
+	background:#333333;
+	color:#FFFFFF;
+}
+.comment-text pre{ margin-top:15px; }
+
+code{ font-family: consolas, courier, monospace; }
+
+q{ font-family: Georgia, serif; }
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+big{ font-size:16px; }
+
+ins{
+	text-decoration:none;
+	padding-left:5px;
+	padding-right:5px;
+	display:inline-block;
+	}
