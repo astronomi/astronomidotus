@@ -1,0 +1,18 @@
+.thumb-container{
+	position:relative;
+	overflow:hidden;
+	}
+	
+/* Zoom Effect */
+
+.thumb-container .post-thumbnail{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+.thumb-container .post-thumbnail:hover{
+    -webkit-transform: scale(2.09,2.08);
+    -moz-transform: scale(2.09,2.08);
+	}
